@@ -6,49 +6,80 @@
   text-align: center;
   width: 100%;
   height: 15%;
-  
-
 }
 .main, .side, .footer, .header{
   margin-top: 10px;
   margin-bottom:  10px;
   margin-right: : 5px;
   margin-left: 5px;
+  text-align: center;
 }
 .main {
-  background-color: blue;
-  text-align: center;
+  background-color: black;
   width: 72%;
   height: 100%;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-left: 10px;
   float:left;
 }
 .side {
   background-color: green;
-  text-align: center;
+  
   width: 25%;
   height: 100%;
   float: left;
 }
 .footer {
   background-color: purple;
-  text-align: center;
+  
   width: 100%;
   height: 15%;
   clear: both;
 }
 .container{
 	width: 100%;
-	height: 60%;
+	height: 65%;
 }
 /* Clear floats after the columns */
 .container:after {
   content: "";
   display: table;
   clear: both;
+}
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main1, .main2{
+	margin: 5px;
+	width: 45%;
+	height: 95%;
+    text-align: center;
+}
+.main1{
+  background-color: yellow;
+  float:left;
+ }
+.main2{
+  background-color: green;
+  float:left;
+}
+.row1, .row2, .row3, .row4{
+	height: 25%;
+}
+.row1{
+	background-color:grey;
+
+}
+.row2{
+	background-color:orange;
+	
+}
+.row3{
+	background-color:red;
+	
+}
+.row4{
+
 }
 </style>
 </head>
@@ -60,13 +91,15 @@
 </div>
 <div class='container'>
 <div class="side">
-	<div>div one</div>
-	<div>div two</div>
-	<div>three</div>
+	<div class= 'row1'>div one</div>
+	<div class= 'row2'>div two</div>
+	<div class= 'row3'>three</div>
+	<div class = 'row4'>four</div>
   
 </div>
 <div class="main">
- 
+	<dir class='main1'>main 1</dir>
+	<div class='main2'>main 2</div>
 </div>
 </div>
 <div class="footer">
