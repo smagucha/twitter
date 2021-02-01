@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>twitter template</title>
+	<style>
+		.main{
+			width: 50%;
+			float: left;
+			
+		
+		}
+		.sideleft{
+			height: 100%;
+			background-color: grey;
+			width: 23%;
+			float: left;
+			 
+		
+		}
+		.sideright{
+			background-color: red;
+			width: 23%;
+			float: left;
+			height: 100%;
+			
+		}
+		.main, .sideleft, .sideright{
+
+			margin-top: 10px;
+		  	margin-bottom:  10px;
+		  	margin-right: : 5px;
+		  	margin-left: 5px;
+		  	height: 95vh;
+		  	
+		}
+		.row{
+			width: 90%;
+			height: 6vh;
+			background-color: purple;
+			border-style: groove;
+			margin:3px;
+			padding: 5px,5px,5px,5px ;
+			text-align: left;
+		}
+		.home{
+			width: 97%;
+			height: 5vh;
+			border:groove;
+		}
+		.user{
+			width: 98%;
+			height: 5vh;
+			border:groove;
+		}
+		.usertweet{
+			width: 98%;
+			height: 8vh;
+			border:groove;
+		}
+		.home{
+			width: 98%;
+			height: 10vh;
+			border:groove;
+		}
+		.tweet{
+			width: 90%;
+			height: 15vh;
+			border:groove;
+		}
+		.home, .tweet {
+
+			margin-top: 10px;
+		  	margin-bottom:  10px;
+		  	margin-right: : 5px;
+		  	margin-left: 5px;
+		  	
+		}
+		
+		.container:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+	</style>
+</head>
+<body>	
+	<div class='container'>
+	<div class="sideleft">
+		<div class='linktweet'>
+		<div class = 'row'><img src="twiiter.png" width='30', height="30" style="float:left">
+			<center><h2>twitter</h2></center> </div>
+		<div class = 'row' ><h3>home</h3></div>
+		<div class = 'row' ><h3> # Explore</h3></div>
+		<div class = 'row' ><h3>notification</h3></div>
+		<div class = 'row'><h3>messages</h3></div>
+		<div class = 'row'><h3>bookmark</h3></div>
+		<div class = 'row'><h3>list</h3></div>
+		<div class = 'row'><h3>profile</h3></div>
+		<div class = 'row'> <h3>more</h3></div>
+		</div>
+		<div class = 'side tweet'>tweet</div>
+		<div class = 'sideuser'>username and picture</div>
+	</div>
+	<div class="main">
+		<div class='home' style="background-color: blue;"><h1>home</h1></div>
+		<div class='tweet' style="background-color: orange;">
+			<div class='user'>user </div>
+			<div class='usertweet'>tweet </div>
+		</div>
+
+		<div class='display tweet'>displaytweet</div>
+		
+	</div>
+	<div class="sideright">side user
+	
+	</div>
+	</div>
+</body>
+</html>
+
