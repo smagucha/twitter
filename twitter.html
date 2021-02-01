@@ -11,7 +11,6 @@
 		}
 		.sideleft{
 			height: 100%;
-			background-color: grey;
 			width: 23%;
 			float: left;
 			 
@@ -22,6 +21,7 @@
 			width: 23%;
 			float: left;
 			height: 100%;
+			border: groove;
 			
 		}
 		.main, .sideleft, .sideright{
@@ -35,8 +35,7 @@
 		}
 		.row{
 			width: 90%;
-			height: 6vh;
-			background-color: purple;
+			height: 7vh;
 			border-style: groove;
 			margin:3px;
 			padding: 5px,5px,5px,5px ;
@@ -81,24 +80,55 @@
 			  display: table;
 			  clear: both;
 			}
+		.sideuser{
+			width: 90%;
+			height: 15vh;
+			border:groove;
+			}
+		.sidetweet{
+			width: 90%;
+			height: 6vh;
+			border:groove;	
+		}
+	a:link {
+	  color: black;
+	}
+
+	/* visited link */
+	a:visited {
+	  color: black;
+	}
+
+	/* mouse over link */
+	a:hover {
+	  color: blue;
+	}
+
+	/* selected link */
+	a:active {
+	  color: blue;
+	}
+	a{
+		text-decoration: none;
+	}
 	</style>
 </head>
 <body>	
 	<div class='container'>
 	<div class="sideleft">
 		<div class='linktweet'>
-		<div class = 'row'><img src="twiiter.png" width='30', height="30" style="float:left">
-			<center><h2>twitter</h2></center> </div>
-		<div class = 'row' ><h3>home</h3></div>
-		<div class = 'row' ><h3> # Explore</h3></div>
-		<div class = 'row' ><h3>notification</h3></div>
-		<div class = 'row'><h3>messages</h3></div>
-		<div class = 'row'><h3>bookmark</h3></div>
-		<div class = 'row'><h3>list</h3></div>
-		<div class = 'row'><h3>profile</h3></div>
-		<div class = 'row'> <h3>more</h3></div>
+		<div class = 'row'><img src="twiiter.png" width='40', height="40" style="float:left">
+			<center><h3>twitter</h3></center> </div>
+		<div class = 'row' ><a href="#"><h3>home</h3></a></div>
+		<div class = 'row' ><a href="#"><h3> # Explore</h3></a></div>
+		<div class = 'row' ><a href="#"><h3>notification</h3></a></div>
+		<div class = 'row'><a href="#"><h3>messages</h3></a></div>
+		<div class = 'row'><a href="#"><h3>bookmark</h3></a></div>
+		<div class = 'row'><a href="#"><h3>list</h3></a></div>
+		<div class = 'row'><a href="#"><h3>profile</h3></a></div>
+		<div class = 'row'><a href="#"> <h3>more</h3></a></div>
 		</div>
-		<div class = 'side tweet'>tweet</div>
+		<div class = 'sidetweet'>tweet</div>
 		<div class = 'sideuser'>username and picture</div>
 	</div>
 	<div class="main">
@@ -112,7 +142,7 @@
 		
 	</div>
 	<div class="sideright">side user
-	
+	jgnblkfknlk pgokgfiol
 	</div>
 	</div>
 </body>
